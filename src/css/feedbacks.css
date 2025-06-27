@@ -26,6 +26,7 @@
     background-color: var(--white-color);
     padding: 20px;
     border-radius: 12px;
+    box-sizing: border-box;
 }
 
 .feedbacks-rating {
