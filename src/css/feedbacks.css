@@ -7,26 +7,31 @@
 }
 
 .feedbacks-title {
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 1.14;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
     text-align: center;
-    color: var(--black-color);
-    margin-bottom: 40px;
+    color: #030A06;
+    margin-bottom: 32px;
 }
 
 .feedbacks-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     text-align: left;
+    list-style: none;
+    padding: 0;
 }
 
 .feedbacks-item {
     background-color: #EBF8ED;
-    padding: 20px;
-    border-radius: 12px;
+    border-radius: 16px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .feedbacks-rating {
@@ -46,18 +51,20 @@
 }
 
 .feedbacks-text {
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
+    font-family: 'Comfortaa', serif;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
     color: rgba(28, 30, 29, 0.8);
     margin-bottom: 12px;
 }
 
 .feedbacks-customer-name {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28;
-    color: var(--black-color);
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
 }
 
 /* --- Tablet styles --- */
@@ -67,16 +74,20 @@
     }
 
     .feedbacks-title {
-        font-size: 40px;
-        line-height: 1.1;
-        margin-bottom: 50px;
+        font-size: 36px;
+        margin-bottom: 32px;
     }
 
     .feedbacks-list {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 16px;
-        row-gap: 20px;
+        row-gap: 24px;
+        margin-bottom: 24px;
+    }
+
+    .feedbacks-text {
+        margin-bottom: 24px;
     }
 
     .feedbacks-item {
@@ -85,13 +96,14 @@
 }
 
 /* --- Desktop styles --- */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
     .feedbacks {
         padding: 75px 0;
     }
 
     .feedbacks-title {
-        margin-bottom: 75px;
+        font-size: 48px;
+        margin-bottom: 80px;
     }
 
     .feedbacks-list {
