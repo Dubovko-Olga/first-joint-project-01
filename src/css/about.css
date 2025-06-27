@@ -1,5 +1,72 @@
-.about{
+.about .container {
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),
+   image-set(
+    url(../img/images/feature-1x.png) 1x,
+    url(../img/images/feature-2x.png) 2x
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 64px 16px;
+  width: 320px;
+  text-align: center;
+
+}
+.about-text {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.about-title {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.about-title-text {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
   
+}
+@media screen and (min-width: 768px) {
+  .about .container {
+    width: 100%;
+    min-width: 768px;
+    padding: 80px 32px;
+   
+  }
+  .about-title-text {
+    font-size: 18px;
+    width: 573px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-text {
+    margin-bottom: 16px;
+  }
+  .about-title {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about .container{
+    width: 100%;
+    min-width: 1440px;
+    padding: 112px 64px;
+  }
+  .about-title{
+   width: 629px;
+   display: block;
+   justify-content: center;
+   align-items: center;
+  }
 }
 
 
