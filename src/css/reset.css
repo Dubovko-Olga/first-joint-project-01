@@ -1,5 +1,5 @@
 ::after,
-::before{
+::before {
   box-sizing: border-box;
 }
 h1,
@@ -40,13 +40,11 @@ img {
   max-width: 100%;
   height: auto;
 }
-body{
-  background-color:#ebf8ed;
+body {
+  background-color: #ebf8ed;
   margin: 0;
-
 }
-h2{
-  
+h1{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
@@ -55,10 +53,10 @@ text-align: center;
 color: #fff;
 }
 
-p{
-  font-family: "Fira Sans", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.6;
-color: #030a06;
+p {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
 }
