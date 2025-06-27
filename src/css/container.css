@@ -1,10 +1,16 @@
 /* Styles for Mobile devices */
+.header .container{
+  padding: 64px 16px;
+}
 .container {
   min-width: 320px;
-  max-width: 375px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 32px 16px;
 }
+.footer .container{
+  padding: 48px 20px;
+}
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
@@ -12,8 +18,8 @@
   }
 }
 /* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1440px) {
   .container {
-    max-width: 1200px;
+    max-width: 1440px;
   }
 }
