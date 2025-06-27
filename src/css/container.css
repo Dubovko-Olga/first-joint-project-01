@@ -1,5 +1,5 @@
 /* Styles for Mobile devices */
-.header .container{
+.hero .container{
   padding: 64px 16px;
 }
 .container {
@@ -13,13 +13,28 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .hero .container{
+    padding: 32px 32px 64px 32px;
+  }
   .container {
     max-width: 768px;
+    padding: 64px 32px;
+  }
+  .footer .container{
+    padding: 64px 32px;
   }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
+  .hero .container{
+    padding: 32px 64px 64px 64px;
+  }
   .container {
     max-width: 1440px;
+    padding: 64px;
+  }
+  .footer .container{
+    padding: 80px 64px;
+
   }
 }
