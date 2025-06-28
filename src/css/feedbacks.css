@@ -112,7 +112,6 @@
     .feedbacks-list {
         flex-wrap: nowrap;
         /* ставимо картки в ряд */
-        gap: none;
     }
 
     .feedbacks-item {
