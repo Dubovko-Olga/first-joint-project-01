@@ -12,7 +12,6 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #030A06;
-    margin-bottom: 32px;
 }
 
 .feedbacks-list {
@@ -21,13 +20,11 @@
     gap: 40px;
     text-align: left;
     padding: 0;
-    margin-bottom: 32px;
 }
 
 .feedbacks-item {
     background-color: #EBF8ED;
     border-radius: 16px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
@@ -35,7 +32,7 @@
 .feedbacks-rating {
     display: flex;
     gap: 4px;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 
 .feedbacks-star-icon {
@@ -51,6 +48,7 @@
 .feedbacks-text {
     font-family: 'Comfortaa', serif;
     font-size: 20px;
+    font-weight: 700;
     line-height: 1.4;
     letter-spacing: 0.01em;
     color: rgba(28, 30, 29, 0.8);
@@ -83,9 +81,9 @@
     .feedbacks-list {
         flex-direction: row;
         flex-wrap: wrap;
-        column-gap: 16px;
-        row-gap: 24px;
-        margin-bottom: 64px;
+        row-gap: 32px;
+        column-gap: 24px;
+        /* ставимо картки в ряд */
     }
 
     .feedbacks-text {
@@ -93,6 +91,7 @@
     }
 
     .feedbacks-item {
+        max-width: 340px;
         flex-basis: calc((100% - 16px) / 2);
     }
 }
@@ -113,7 +112,7 @@
     .feedbacks-list {
         flex-wrap: nowrap;
         /* ставимо картки в ряд */
-        gap: 24px;
+        gap: none;
     }
 
     .feedbacks-item {
