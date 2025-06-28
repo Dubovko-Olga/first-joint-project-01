@@ -51,7 +51,9 @@
     margin-bottom: 16px;
   }
   .about-title {
+    margin: 0 auto;
     margin-bottom: 24px;
+
   }
 }
 
@@ -62,9 +64,11 @@
     padding: 112px 64px;
   }
   .about-title{
-   
-   display: block;
+    font-size: 56px;
+    width: 629px;
+  white-space: normal;
    justify-content: center;
    align-items: center;
+   
   }
 }
