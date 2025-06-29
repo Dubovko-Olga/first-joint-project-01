@@ -1,8 +1,7 @@
 /* section hero */
-.hero {
-  padding: 64px 16px;
+.hero .container {
+  padding: 64px 0;
   background-color: #ebf8ed;
-  max-width: 320px;
   text-align: center;
 }
 
@@ -23,10 +22,6 @@
 }
 
 .hero-paragraph {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #030a06;
   text-align: left;
   max-width: 288px;
   margin-left: auto;
@@ -49,7 +44,6 @@
   width: 100%;
   max-width: 288px;
   height: 50px;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -138,7 +132,6 @@
   .hero-title {
     max-width: 520px;
     font-size: 56px;
-    line-height: 1.2;
   }
 
   .hero-text-btn {
