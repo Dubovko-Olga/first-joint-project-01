@@ -18,7 +18,9 @@
             placeholder="Іван"
             aria-describedby="name-hint"
           />
-          <span id="name-hint" class="error-message">Error text</span>
+          <span id="name-hint" class="error-message"
+            >Будь ласка, введіть коректне ім'я (мін. 5 символів)</span
+          >
         </div>
 
         <div class="form-group">
@@ -29,11 +31,13 @@
             id="user-email"
             name="user-email"
             required
-            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             placeholder="hello@ecotote.com"
             aria-describedby="email-hint"
           />
-          <span id="email-hint" class="error-message">Error text</span>
+          <span id="email-hint" class="error-message"
+            >Будь ласка, введіть коректну email адресу</span
+          >
         </div>
 
         <div class="form-group">
@@ -47,7 +51,9 @@
             placeholder="Введіть своє повідомлення..."
             aria-describedby="comment-hint"
           ></textarea>
-          <span id="comment-hint" class="error-message">Error text</span>
+          <span id="comment-hint" class="error-message"
+            >Будь ласка, введіть ваше повідомлення</span
+          >
         </div>
 
         <button class="submit-btn" type="submit">Надіслати</button>
