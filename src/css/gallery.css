@@ -27,7 +27,7 @@
 .gallery-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 24px;
+  gap: 16px;
 }
 
 .gallery-item {
