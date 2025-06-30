@@ -4,6 +4,17 @@
 }
 
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -17,8 +28,6 @@ ul {
 a {
   color: inherit;
   text-decoration: none;
-  display: block;
-  font-style: normal;
 }
 
 button {
@@ -34,10 +43,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 body {
-  background-color: #fff;
+
+
+  background-color: #ebf8ed;
   margin: 0;
+
+
 }
+
 h2 {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
@@ -55,12 +70,4 @@ p {
   font-size: 16px;
   line-height: 1.6;
   color: #030a06;
-}
-@media screen and (min-width: 1440px){
-  h2{
-    font-size: 48px;
-  }
-  p{
-    font-size: 18px;
-  }
 }
