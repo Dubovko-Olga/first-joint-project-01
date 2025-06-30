@@ -81,6 +81,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .assortment-container{
+    padding-top: 64px
+    ;padding-bottom: 64px;
+  }
   .assortment-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

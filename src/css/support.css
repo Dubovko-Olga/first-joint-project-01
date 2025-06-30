@@ -95,8 +95,7 @@ padding-bottom: 32px;
   border: 1px solid #030a06;
   border-radius: 6px;
   padding: 12px 24px;
-  width: 100%;
-  max-width: 198px;
+  max-width: 288px;
   background-color: #030a06;
   color: #fff;
   font-size: 16px;
@@ -142,6 +141,9 @@ padding-top: 64px;
 padding-bottom: 64px;
 }
 }
+.submit-btn{
+  max-width: 249px;
+}
 
 /* Desktop styles (1440px+) */
 @media (min-width: 1440px) {
@@ -165,6 +167,9 @@ padding-bottom: 64px;
     height: 767px;
     aspect-ratio: unset;
     margin-left: 24px;
+  }
+  .submit-btn{
+    max-width: 198px;
   }
 }
 
