@@ -113,8 +113,13 @@
     column-gap: 24px;
     row-gap: 64px;
   }
-
+ .assortment-item article{
+  width: 310px;
+ }
   .buy-button {
-    min-width: 310px;
+    max-width: 310px;
+  }
+  .assortment-image{
+    width: 310px;
   }
 }

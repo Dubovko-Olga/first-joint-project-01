@@ -147,6 +147,7 @@ padding-bottom: 64px;
 @media (min-width: 1440px) {
   .support .container {
     display: flex;
+    flex-direction: row;
   }
   .support-content {
     flex: 0 1 644px;
