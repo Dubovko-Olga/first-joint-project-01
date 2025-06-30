@@ -1,7 +1,8 @@
 
 /* section hero */
 .hero .container {
-  padding: 64px 0;
+ padding-top: 64px;
+ padding-bottom: 64px;
   background-color: #ebf8ed;
   text-align: center;
 }
@@ -12,6 +13,7 @@
 }
 
 .hero-title {
+  font-family: "Comfortaa", sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-align: left;
@@ -19,7 +21,7 @@
   color: #030a06;
   line-height: 1.2;
   letter-spacing: 0.01em;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 .hero-paragraph {
@@ -66,10 +68,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero {
-    padding: 32px 32px 64px 32px;
+  .hero .container{
+    padding-top: 32px;
     background-color: #ebf8ed;
-    max-width: 768px;
   }
 
   .hero-text {
@@ -81,7 +82,7 @@
   }
 
   .hero-title {
-    max-width: 320px;
+    width: 320px;
   }
 
   .hero-text-btn {
@@ -109,16 +110,10 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .hero {
-    padding: 32px 64px 64px 64px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
 
   .hero-text-picture {
     display: flex;
     flex-direction: column;
-    max-width: 1312px;
     margin: 0 auto;
   }
 
@@ -127,17 +122,16 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 64px;
-    width: 100%;
+   
   }
 
   .hero-title {
-    max-width: 520px;
+    width: 640px;
     font-size: 56px;
   }
 
   .hero-text-btn {
-    max-width: 640px;
-    display: flex;
+   /* max-width: 640px;*/
     flex-direction: column;
     gap: 24px;
   }
