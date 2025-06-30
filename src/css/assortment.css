@@ -52,14 +52,13 @@
 }
 .order-button {
   text-align: center;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 
 .buy-button {
   width: 100%;
   max-width: 288px;
   height: 40px;
-  display: block;
   align-items: center;
   justify-content: center;
   border: 1px solid #030a06;
@@ -71,6 +70,7 @@
   background-color: transparent;
 
   transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 16px;
 }
 .buy-button:hover,
 .buy-button:focus {
@@ -81,10 +81,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .assortment-container {
-    padding-bottom: 64px;
-    padding-top: 64px;
-  }
   .assortment-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -106,7 +102,7 @@
   }
 
   .buy-button {
-    width: 100%;
+    width: 340px;
     max-width: 340px;
   }
 }
