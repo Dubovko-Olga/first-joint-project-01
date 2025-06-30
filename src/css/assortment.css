@@ -52,7 +52,7 @@
 }
 .order-button {
   text-align: center;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 
 .buy-button {
@@ -70,6 +70,7 @@
   background-color: transparent;
 
   transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 16px;
 }
 .buy-button:hover,
 .buy-button:focus {
@@ -81,11 +82,8 @@
 
 @media screen and (min-width: 768px) {
   .assortment-container {
-    padding-bottom: 64px;
     padding-top: 64px;
-    max-width: 704px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-bottom: 64px;
   }
   .assortment-list {
     display: grid;
@@ -93,7 +91,7 @@
     column-gap: 24px;
     row-gap: 24px;
   }
-  .assortment-item atricle {
+  .assortment-item article {
     min-width: 340px;
     display: flex;
     flex-direction: column;
@@ -115,7 +113,6 @@
 
 @media screen and (min-width: 1440px) {
   .assortment-container {
-    max-width: 1312px;
     padding-left: 64px;
     padding-right: 64px;
   }
@@ -124,8 +121,13 @@
     column-gap: 24px;
     row-gap: 64px;
   }
-
+  .assortment-item article {
+    width: 310px;
+  }
   .buy-button {
-    min-width: 310px;
+    max-width: 310px;
+  }
+  .assortment-image {
+    width: 310px;
   }
 }
