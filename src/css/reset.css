@@ -2,15 +2,7 @@
 ::before {
   box-sizing: border-box;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
+
 
 p:last-child {
   margin-bottom: 0;
@@ -43,8 +35,8 @@ img {
   height: auto;
 }
 body {
-  background-color: #ebf8ed;
-  margin: 0 auto;
+  background-color: #fff;
+  margin: 0;
 }
 h2 {
   font-family: 'Comfortaa', sans-serif;
@@ -54,6 +46,7 @@ h2 {
   letter-spacing: 0.01em;
   text-align: center;
   color: #030a06;
+  margin: 0;
 }
 
 p {

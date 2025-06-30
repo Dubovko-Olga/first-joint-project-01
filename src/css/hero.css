@@ -1,96 +1,157 @@
-.vite-promo {
-  padding: 50px 0;
-}
-.vite-promo-thumb {
-  position: relative;
-  max-width: 320px;
-  margin: 0 auto;
-}
-.vite-promo-thumb::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
 
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
-  filter: blur(4.5rem);
-}
-.main-title {
+/* section hero */
+.hero .container {
+ padding-top: 64px;
+ padding-bottom: 64px;
+  background-color: #ebf8ed;
   text-align: center;
 }
-.main-title-gradient {
+
+.hero-text {
   display: block;
-  font-size: 2em;
-  background-image: linear-gradient(120deg, #bd34fe 30%, #41d1ff);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  margin-bottom: 24px;
 }
-@media only screen and (min-width: 768px) {
-  .main-title-gradient {
-    font-size: 3em;
+
+.hero-title {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  align-items: center;
+  color: #030a06;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin: 0 0 20px;
+}
+
+.hero-paragraph {
+  text-align: left;
+  max-width: 288px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.hero-text-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-btn {
+  background-color: #030a06;
+  color: #fff;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 12px 24px;
+  width: 100%;
+  max-width: 288px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  opacity: 0.5;
+}
+
+.hero-picture {
+  display: block;
+  border-radius: 40px;
+  width: 288px;
+  height: 285px;
+  object-fit: cover;
+  object-position: center;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .container{
+    padding-top: 32px;
+    background-color: #ebf8ed;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  .hero-title {
+    width: 320px;
+  }
+
+  .hero-text-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 340px;
+  }
+
+  .hero-paragraph {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .hero-btn {
+    width: 148px;
+    height: 50px;
+  }
+
+  .hero-picture {
+    width: 704px;
+    height: 267.22px;
   }
 }
-.main-title-link {
-  position: relative;
-  letter-spacing: 0.04em;
+
+@media screen and (min-width: 1440px) {
+
+  .hero-text-picture {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+   
+  }
+
+  .hero-title {
+    width: 640px;
+    font-size: 56px;
+  }
+
+  .hero-text-btn {
+   /* max-width: 640px;*/
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .hero-paragraph {
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    max-width: 640px;
+  }
+
+  .hero-btn {
+    width: 160px;
+  }
+
+  .hero-picture {
+    width: 1312px;
+    height: 498px;
+    object-fit: cover;
+    border-radius: 40px;
+  }
 }
-.main-title-link::before {
-  content: '';
-  position: absolute;
-  bottom: 4%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg) rotate(-2deg);
-  z-index: -1;
-  width: 108%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
-}
-.main-title-link:hover::before,
-.main-title-link:focus::before {
-  background-color: #ff6b0a;
-}
 
-.vite-promo .title,
-.vite-promo .text {
-  margin-bottom: 1.5rem;
-
-  font-size: 3.5rem;
-  font-weight: 700;
-  line-height: 1.14;
-
-  color: #213547;
-}
-
-.vite-promo .tagline {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: rgba(60, 60, 60, 0.7);
-}
-
-.vite-promo .actions {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.vite-promo .link {
-  display: inline-block;
-  padding: 0.5rem 1.25rem;
-
-  font-weight: 500;
-  text-align: center;
-  white-space: nowrap;
-  color: rgba(255, 255, 255, 0.87);
-
-  background-color: #646cff;
-  border: 1px solid transparent;
-  border-radius: 1.25rem;
-  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
-}

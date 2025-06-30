@@ -1,0 +1,117 @@
+
+.feedbacks-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.feedbacks-title{
+    margin-bottom: 32px;
+}
+
+.feedbacks-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+}
+
+
+.feedbacks-item {
+    background-color: #EBF8ED;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.feedbacks-rating {
+    display: flex;
+    gap: 4px;
+   
+    margin-bottom: 12px;
+}
+
+.feedbacks-star-icon {
+    fill: #030A06;
+    /* Колір "порожньої" зірочки */
+}
+
+.feedbacks-star-icon.filled {
+    fill: #66ac71;
+    /* Колір зафарбованої зірочки */
+}
+
+.feedbacks-text {
+    font-family: 'Comfortaa', serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: rgba(28, 30, 29, 0.8);
+    margin-bottom: 12px;
+}
+
+.feedbacks-customer-name {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+}
+
+/* --- Tablet styles --- */
+@media screen and (min-width: 768px) {
+ 
+.feedbacks-container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+    .feedbacks-title {
+        font-size: 36px;
+        margin-bottom: 32px;
+    }
+
+        .feedbacks-rating {
+            margin-bottom: 24px;
+        }
+
+    .feedbacks-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 32px;
+        column-gap: 24px;
+        /* ставимо картки в ряд */
+    }
+
+    .feedbacks-text {
+        margin-bottom: 24px;
+    }
+
+    .feedbacks-item {
+        /* має бути щось одне або стала ширина або обчислення */
+        max-width: 340px;
+       
+    }
+}
+
+/* --- Desktop styles --- */
+@media screen and (min-width: 1440px) {
+    .feedbacks-container {
+        text-align: -webkit-center;
+        /* вирівнюємо текст по центру */
+    }
+
+    .feedbacks-title {
+        font-size: 48px;
+        margin-bottom: 80px;
+        width: 560px;
+    }
+
+    .feedbacks-list {
+        flex-wrap: nowrap;
+        /* ставимо картки в ряд */
+        gap: none;
+    }
+
+    .feedbacks-item {
+        flex-basis: calc((100% - (24px * 3)) / 4);
+    }
+}
