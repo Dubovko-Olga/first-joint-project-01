@@ -1,5 +1,5 @@
 
-.gallary .container{
+.gallery .container{
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -42,7 +42,7 @@
 }
 
 @media screen and (min-width: 768px) {
-.gallaty .container{
+.gallery .container{
     padding-top: 64px;
     padding-bottom: 64px;
 }

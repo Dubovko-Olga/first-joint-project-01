@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-=======
-.footer {
 
+.footer {
   background-color: #75d281;
-  padding-top: 48px;
+}
+.footer .container{
+   padding-top: 48px;
   padding-bottom: 48px;
 }
 
@@ -106,13 +106,7 @@ address {
 }
 
 @media only screen and (min-width: 768px) {
-  /* .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  } */
-
-  .footer {
+  .footer .container {
     padding-top: 64px;
     padding-bottom: 64px;
   }
@@ -159,11 +153,7 @@ address {
 
 @media only screen and (min-width: 1440px) {
 
-  /* .container {
-    max-width: 1440px;
-    padding-left: 64px;
-    padding-right: 64px;
-  } */
+
   .footer-container {
     display: flex;
     justify-content: space-between;
@@ -179,9 +169,7 @@ address {
     padding-bottom: 80px;
   }
 
-  .footer-logo-container {
-    /* margin-right: 158px; */
-  }
+ 
 
   .footer-logo {
     display: flex;
@@ -201,7 +189,6 @@ address {
   }
 
   .footer-social-container {
-    /* margin-left: 245px; */
     margin-bottom: 0px;
   }
 
@@ -223,4 +210,4 @@ address {
   }
 }
 
->>>>>>> 0884277ec1380e0bd0ef7c8a241ea94fcbde2370
+
