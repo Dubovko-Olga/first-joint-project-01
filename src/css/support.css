@@ -140,10 +140,11 @@ padding-bottom: 32px;
 padding-top: 64px;
 padding-bottom: 64px;
 }
-}
 .submit-btn{
   max-width: 249px;
 }
+}
+
 
 /* Desktop styles (1440px+) */
 @media (min-width: 1440px) {
