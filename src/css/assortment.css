@@ -59,6 +59,7 @@
   width: 100%;
   max-width: 288px;
   height: 40px;
+  display: block;
   align-items: center;
   justify-content: center;
   border: 1px solid #030a06;
@@ -83,9 +84,6 @@
   .assortment-container {
     padding-bottom: 64px;
     padding-top: 64px;
-    max-width: 704px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
   .assortment-list {
     display: grid;
@@ -93,7 +91,7 @@
     column-gap: 24px;
     row-gap: 24px;
   }
-  .assortment-item atricle {
+  .assortment-item article {
     min-width: 340px;
     display: flex;
     flex-direction: column;
@@ -108,7 +106,7 @@
   }
 
   .buy-button {
-    width: 340px;
+    width: 100%;
     max-width: 340px;
   }
 }

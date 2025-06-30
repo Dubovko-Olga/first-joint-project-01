@@ -1,11 +1,10 @@
-/* --- Mobile styles (default) --- */
 
-.feedbacks-container {
+
+.feedbacks-container{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-
-.feedbacks-title {
+.feedbacks-title{
     margin-bottom: 32px;
 }
 
@@ -16,8 +15,12 @@
     text-align: left;
 }
 
+
+
 .feedbacks-item {
     background-color: #EBF8ED;
+    
+
     display: flex;
     flex-direction: column;
 }
@@ -54,25 +57,30 @@
     font-size: 16px;
     line-height: 1.6;
     color: #030a06;
+
     margin-top: auto;
     /* Вирівнюємо ім'я клієнта внизу картки */
+
 }
 
 /* --- Tablet styles --- */
 @media screen and (min-width: 768px) {
+
     .feedbacks-container {
         padding-top: 64px;
         padding-bottom: 64px;
     }
+
 
     .feedbacks-title {
         font-size: 36px;
         margin-bottom: 32px;
     }
 
-    .feedbacks-rating {
-        margin-bottom: 24px;
-    }
+        .feedbacks-rating {
+            margin-bottom: 24px;
+        }
+
 
     .feedbacks-list {
         flex-direction: row;
@@ -87,7 +95,10 @@
     }
 
     .feedbacks-item {
+
+        /* має бути щось одне або стала ширина або обчислення */
         max-width: 340px;
+       
     }
 }
 
