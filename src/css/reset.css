@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+
 h1,
 h2,
 h3,
@@ -12,6 +13,7 @@ h6,
 p {
   margin: 0;
 }
+
 
 p:last-child {
   margin-bottom: 0;
@@ -43,8 +45,10 @@ img {
 }
 
 body {
+
   background-color: #ebf8ed;
   margin: 0;
+
 }
 
 h2 {
