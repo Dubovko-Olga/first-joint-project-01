@@ -2,6 +2,7 @@
 ::before {
   box-sizing: border-box;
 }
+
 h1,
 h2,
 h3,
@@ -11,6 +12,7 @@ h6,
 p {
   margin: 0;
 }
+
 
 p:last-child {
   margin-bottom: 0;
@@ -40,17 +42,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 body {
+
   background-color: #ebf8ed;
-  margin: 0;
+  margin: 0 auto;
 }
-h1{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.2;
-letter-spacing: 0.01em;
-text-align: center;
-color: #fff;
+
+
+h1,
+h2 {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin: 0;
+
 }
 
 p {
