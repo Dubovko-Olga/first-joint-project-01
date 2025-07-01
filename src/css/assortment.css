@@ -113,6 +113,7 @@
 
 @media screen and (min-width: 1440px) {
   .assortment-container {
+    max-width: 1312px;
     padding-left: 64px;
     padding-right: 64px;
   }
@@ -120,14 +121,21 @@
     grid-template-columns: repeat(4, 1fr);
     column-gap: 24px;
     row-gap: 64px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
   .assortment-item article {
-    width: 310px;
+    max-width: 310px;
+    width: 100%;
+    margin: 0 auto;
   }
   .buy-button {
     max-width: 310px;
   }
-  .assortment-image {
-    width: 310px;
+  .assortment-image,
+  .buy-button {
+    max-width: 310px;
+    width: 100%;
   }
 }
