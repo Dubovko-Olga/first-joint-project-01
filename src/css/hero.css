@@ -1,0 +1,157 @@
+
+/* section hero */
+.hero .container {
+ padding-top: 64px;
+ padding-bottom: 64px;
+  background-color: #ebf8ed;
+  text-align: center;
+}
+
+.hero-text {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.hero-title {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: left;
+  align-items: center;
+  color: #030a06;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin: 0 0 20px;
+}
+
+.hero-paragraph {
+  text-align: left;
+  max-width: 288px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.hero-text-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-btn {
+  background-color: #030a06;
+  color: #fff;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 12px 24px;
+  width: 100%;
+  max-width: 288px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  opacity: 0.5;
+}
+
+.hero-picture {
+  display: block;
+  border-radius: 40px;
+  width: 288px;
+  height: 285px;
+  object-fit: cover;
+  object-position: center;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .container{
+    padding-top: 32px;
+    background-color: #ebf8ed;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  .hero-title {
+    width: 320px;
+  }
+
+  .hero-text-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 340px;
+  }
+
+  .hero-paragraph {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .hero-btn {
+    width: 148px;
+    height: 50px;
+  }
+
+  .hero-picture {
+    width: 704px;
+    height: 267.22px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .hero-text-picture {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 64px;
+   
+  }
+
+  .hero-title {
+    width: 640px;
+    font-size: 56px;
+  }
+
+  .hero-text-btn {
+   /* max-width: 640px;*/
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .hero-paragraph {
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    max-width: 640px;
+  }
+
+  .hero-btn {
+    width: 160px;
+  }
+
+  .hero-picture {
+    width: 1312px;
+    height: 498px;
+    object-fit: cover;
+    border-radius: 40px;
+  }
+}
+

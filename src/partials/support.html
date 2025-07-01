@@ -1,1 +1,71 @@
 
+<section class="support" id="support">
+  <div class="container">
+    <div class="support-content">
+      <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+      <p class="support-subtitle">Ми тут, щоб допомогти!</p>
+
+      <form class="support-form" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="user-name">Ім'я</label>
+          <input
+            class="form-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            required
+            minlength="5"
+            maxlength="64"
+            placeholder="Іван"
+            aria-describedby="name-hint"
+          />
+          <span id="name-hint" class="error-message"
+            >Будь ласка, введіть коректне ім'я (мін. 5 символів)</span
+          >
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="user-email">Електронна пошта</label>
+          <input
+            class="form-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            required
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            placeholder="hello@ecotote.com"
+            aria-describedby="email-hint"
+          />
+          <span id="email-hint" class="error-message"
+            >Будь ласка, введіть коректну email адресу</span
+          >
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="user-comment">Повідомлення</label>
+          <textarea
+            class="form-textarea"
+            id="user-comment"
+            name="user-comment"
+            required
+            maxlength="500"
+            placeholder="Введіть своє повідомлення..."
+            aria-describedby="comment-hint"
+          ></textarea>
+          <span id="comment-hint" class="error-message"
+            >Будь ласка, введіть ваше повідомлення</span
+          >
+        </div>
+
+        <button class="submit-btn" type="submit">Надіслати</button>
+      </form>
+    </div>
+
+    <div
+      class="support-image"
+      role="img"
+      aria-label="Зображення підтримки"
+    ></div>
+  </div>
+</section>
+
