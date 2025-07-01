@@ -78,7 +78,7 @@
 }
 
 @media screen and (min-width: 768px) {
- 
+
   .assortment-container {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -90,7 +90,7 @@
     row-gap: 24px;
   }
   .assortment-item article {
-    min-width: 340px;
+    max-width: 340px;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -117,6 +117,7 @@
     margin: 0;
     list-style: none;
   }
+
   .assortment-item article{
     min-width: 310px;
     margin: 0;
@@ -124,10 +125,6 @@
   .assortment-cover{
     width: 310px;
   }
-  .buy-button {
-    max-width: 310px;
-  }
-  
   .assortment-image,
   .buy-button {
     max-width: 310px;
