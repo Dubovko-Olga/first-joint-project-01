@@ -1,3 +1,4 @@
+
 .assortment {
   background: #ebf8ed;
 }
@@ -6,7 +7,6 @@
   padding-bottom: 32px;
   padding-top: 32px;
 }
-
 .assortment-title {
   text-transform: capitalize;
   margin-bottom: 32px;
@@ -36,7 +36,6 @@
   line-height: 1.6;
   text-align: center;
 }
-
 .product-description {
   font-weight: 400;
   font-size: 14px;
@@ -54,7 +53,6 @@
   text-align: center;
   /* margin-top: 16px; */
 }
-
 .buy-button {
   width: 100%;
   max-width: 288px;
@@ -68,7 +66,6 @@
   color: #030a06;
   margin: 0 auto;
   background-color: transparent;
-
   transition: background-color 0.3s ease, color 0.3s ease;
   margin-top: 16px;
 }
@@ -81,6 +78,7 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .assortment-container {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -97,14 +95,12 @@
     flex-direction: column;
     min-height: 100%;
   }
-
   .assortment-description {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-
   .buy-button {
     width: 340px;
     max-width: 340px;
@@ -112,6 +108,7 @@
 }
 
 @media screen and (min-width: 1440px) {
+ 
   .assortment-list {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 24px;
@@ -120,13 +117,13 @@
     margin: 0;
     list-style: none;
   }
-  .assortment-item article {
-    max-width: 310px;
-    width: 100%;
-  }
 
-  .buy-button {
-    max-width: 310px;
+  .assortment-item article{
+    min-width: 310px;
+    margin: 0;
+  }
+  .assortment-cover{
+    width: 310px;
   }
   .assortment-image,
   .buy-button {
