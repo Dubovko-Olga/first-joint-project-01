@@ -1,3 +1,4 @@
+
 .about-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(/img/images/feature-1x.png);
@@ -76,3 +77,4 @@ letter-spacing: 0.01em;
     align-items: center;
   }
 }
+
