@@ -92,7 +92,7 @@
     row-gap: 24px;
   }
   .assortment-item article {
-    min-width: 340px;
+    max-width: 340px;
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -113,9 +113,7 @@
 
 @media screen and (min-width: 1440px) {
   .assortment-container {
-    max-width: 1312px;
-    padding-left: 64px;
-    padding-right: 64px;
+    max-width: 1320px;
   }
   .assortment-list {
     grid-template-columns: repeat(4, 1fr);
@@ -130,6 +128,7 @@
     width: 100%;
     margin: 0 auto;
   }
+
   .buy-button {
     max-width: 310px;
   }
