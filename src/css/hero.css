@@ -67,7 +67,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero .container{
+  .hero {
     padding-top: 32px;
     background-color: #ebf8ed;
   }
@@ -93,6 +93,7 @@
   }
 
   .hero-paragraph {
+    max-width: 340px;
     font-size: 18px;
     margin: 0;
   }
@@ -130,7 +131,7 @@
   }
 
   .hero-text-btn {
-   /* max-width: 640px;*/
+   max-width: 640px;
     flex-direction: column;
     gap: 24px;
   }
