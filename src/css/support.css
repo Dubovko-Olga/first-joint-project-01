@@ -1,9 +1,9 @@
 .support {
   background-color: #ebf8ed;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .support .container {
-padding-top:32px;
-padding-bottom: 32px;
   flex-direction: column;
 }
 .support-title {
@@ -24,6 +24,7 @@ padding-bottom: 32px;
 .form-group {
   width: 100%;
   position: relative;
+  margin-bottom: 24px;
 }
 .form-label {
   font-family: 'Fira Sans', sans-serif;
@@ -43,7 +44,8 @@ padding-bottom: 32px;
   background-color: rgba(3, 10, 6, 0.05);
   font-size: 16px;
   transition: all 0.3s ease;
-  margin-bottom: 24px;
+  margin-bottom: 0;
+  outline: none;
 }
 .form-input {
   padding: 12px 8px;
@@ -52,15 +54,15 @@ padding-bottom: 32px;
 .form-textarea {
   padding: 12px 12px 0 12px;
   min-height: 180px;
-  resize: vertical;
+  resize: none;
 }
 
 /* Focus states */
-.form-input:focus,
+/* .form-input:focus,
 .form-textarea:focus {
   border-color: #030a06;
   box-shadow: 0 0 0 2px rgba(3, 10, 6, 0.1);
-}
+} */
 
 /* Validation styles */
 .form-input:not(:placeholder-shown):invalid,
@@ -72,7 +74,7 @@ padding-bottom: 32px;
 .form-input:not(:placeholder-shown):valid,
 .form-textarea:not(:placeholder-shown):valid {
   border-color: rgba(3, 10, 6, 0.3);
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .error-message {
@@ -120,31 +122,25 @@ padding-bottom: 32px;
   background-position: center;
   background-image: url(/img/images/support-1x.png);
 }
-
-
-@media screen and (min-resolution: 192dpi) {
-  .support-image{
-    background-image: 
-      url(/img/images/support-2x.png);
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .support-image {
+    background-image: url(/img/images/support-2x.png);
   }
 }
-
-
 
 /* Tablet styles (768px+) */
 @media (min-width: 768px) {
   .support-image {
     aspect-ratio: 4/3;
   }
-.support.container {
-padding-top: 64px;
-padding-bottom: 64px;
+  .support {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .submit-btn {
+    max-width: 249px;
+  }
 }
-.submit-btn{
-  max-width: 249px;
-}
-}
-
 
 /* Desktop styles (1440px+) */
 @media (min-width: 1440px) {
@@ -169,8 +165,7 @@ padding-bottom: 64px;
     aspect-ratio: unset;
     margin-left: 24px;
   }
-  .submit-btn{
+  .submit-btn {
     max-width: 198px;
   }
 }
-
