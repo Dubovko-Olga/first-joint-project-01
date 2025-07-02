@@ -1,11 +1,7 @@
-html {
-  scroll-behavior: smooth;
-}
+
 .footer {
   background-color: #75d281;
-}
-.footer-section .container{
-   padding-top: 48px;
+    padding-top: 48px;
   padding-bottom: 48px;
 }
 
@@ -46,7 +42,7 @@ html {
 
 .footer-nav-item a:hover,
 .footer-nav-item a:focus {
-  color: #038f15;
+  color: bisque;
   /* text-decoration: underline; */
   outline: none;
 }
@@ -93,7 +89,7 @@ html {
   border-top: 1px solid rgba(3, 10, 6, 0.15);
 }
 
-address {
+.footer-contacts {
   font-style: normal;
 }
 
@@ -122,7 +118,7 @@ address {
 }
 
 @media only screen and (min-width: 768px) {
-  .footer .container {
+  .footer {
     padding-top: 64px;
     padding-bottom: 64px;
   }
@@ -180,12 +176,11 @@ address {
     flex-wrap: wrap;
   }
 
-  /* .footer {
+   .footer {
     padding-top: 80px;
     padding-bottom: 80px;
-  } */
-
-
+   }
+  
 
   .footer-logo {
     display: flex;

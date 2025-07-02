@@ -1,7 +1,7 @@
 .header {
   background-color: #75d281;
 }
-.header .container {
+.header {
   padding-left: 20px;
   padding-right: 12px;
 }
@@ -29,7 +29,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header .container {
+  .header {
     padding-left: 32px;
     padding-right: 16px;
   }
@@ -41,7 +41,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .header .container {
+  .header {
     padding-left: 64px;
     padding-right: 64px;
   }

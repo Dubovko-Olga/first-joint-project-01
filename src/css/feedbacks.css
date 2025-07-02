@@ -1,5 +1,5 @@
 
-.feedbacks-container{
+.feedbacks{
     padding-top: 32px;
     padding-bottom: 32px;
 }
@@ -65,7 +65,7 @@
 /* --- Tablet styles --- */
 @media screen and (min-width: 768px) {
 
-    .feedbacks-container {
+    .feedbacks{
         padding-top: 64px;
         padding-bottom: 64px;
     }
@@ -117,7 +117,6 @@
     .feedbacks-list {
         flex-wrap: nowrap;
         /* ставимо картки в ряд */
-        gap: none;
     }
 
     .feedbacks-item {

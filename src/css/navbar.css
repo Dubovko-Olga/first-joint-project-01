@@ -15,7 +15,9 @@
 .navbar .container {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 14px;
+}
+.navbar{
+   padding-top: 14px;
   padding-bottom: 92px;
 }
 

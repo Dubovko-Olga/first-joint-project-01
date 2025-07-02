@@ -1,9 +1,8 @@
 
 /* section hero */
-.hero .container {
+.hero {
  padding-top: 64px;
  padding-bottom: 64px;
-  background-color: #ebf8ed;
   text-align: center;
 }
 

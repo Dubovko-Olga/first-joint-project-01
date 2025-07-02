@@ -1,5 +1,5 @@
 
-.advantages .container{
+.advantages {
      padding-top: 32px;
      padding-bottom: 32px;
 }
@@ -56,7 +56,7 @@
   
   
   @media only screen and (min-width: 768px) {
-    .advantages .container{
+    .advantages {
         padding-top: 64px;
         padding-bottom: 64px;
    }
@@ -100,8 +100,7 @@
       margin-bottom: 16px;
     }
   
-    .title {
-  
+     .advantages-title {
       font-size: 48px;
       margin-bottom: 24px;
     }
