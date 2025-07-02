@@ -84,7 +84,7 @@
       flex: 1 1 calc(50% - 24px);
     }
   
-    .features-item:nth-child {
+    .features-item:last-child{
       flex: 1 1 100%;
     }
   
@@ -92,7 +92,9 @@
         margin-top: 32px;
       margin-bottom: 8px;
     }
-  
+    .axter{
+      width: 340px;
+    }
   }
  
   @media only screen and (min-width: 1440px) {
@@ -129,6 +131,7 @@
   
     .advantages-img {
       margin-bottom: 32px;
+      width: 421px;
     }
   }
 
