@@ -1,8 +1,10 @@
-
+html {
+  scroll-behavior: smooth;
+}
 .footer {
   background-color: #75d281;
 }
-.footer .container{
+.footer-section .container{
    padding-top: 48px;
   padding-bottom: 48px;
 }
@@ -33,6 +35,20 @@
   font-size: 16px;
   line-height: 1.6;
   color: #030a06;
+}
+
+
+.footer-nav-item a {
+  text-decoration: none;
+  color: #030a06;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-nav-item a:hover,
+.footer-nav-item a:focus {
+  color: #038f15;
+  /* text-decoration: underline; */
+  outline: none;
 }
 
 .footer-social-container {
@@ -164,12 +180,12 @@ address {
     flex-wrap: wrap;
   }
 
-  .footer {
+  /* .footer {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
+  } */
 
- 
+
 
   .footer-logo {
     display: flex;
