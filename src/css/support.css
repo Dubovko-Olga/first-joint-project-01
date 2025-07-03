@@ -119,11 +119,11 @@
   border-radius: 40px;
   background-size: cover;
   background-position: center;
-  background-image: url(/img/images/support-1x.png);
+  background-image: url(/img/images/support-1x.webp);
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .support-image {
-    background-image: url(/img/images/support-2x.png);
+    background-image: url(/img/images/support-2x.webp);
   }
 }
 

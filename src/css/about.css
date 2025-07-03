@@ -2,7 +2,7 @@
 .about {
  height: 348px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/img/images/feature-1x.png);
+    url(/img/images/feature-1x.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   .about {
    
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/img/images/feature-2x.png);
+      url(/img/images/feature-2x.webp);
   }
 }
 
